@@ -1,0 +1,1 @@
+# allow for creation with set key AND use w/ vernam OTP
