@@ -15,5 +15,5 @@ def vernam(cleartext):
     for i in range(str_len):
         key = key + chars[randrange(26)]
 
-    return [key, viginere(cleartext, key)]
+    return [key, viginere(cleartext, key, 0)]
 
